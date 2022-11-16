@@ -9,7 +9,7 @@ body{
     display: grid;
    /* grid-template-columns:repeat( auto-fill, minmax(250px 1fr) );*/
    /* grid-template-rows: 7rem 80vh 1fr 100px;*/
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding:2px;
@@ -257,7 +257,7 @@ h6{
     }
     
 }
-@media only  screen and (max-width:500px){
+@media only  screen and (max-width:600px){
     header{
         font-size: 12px;
         padding: 0;
@@ -268,8 +268,14 @@ h6{
         height: 150px;
     }
     a{
-        font-size: 10px;
+        font-size: 13px;
         
+    }
+    .header-a, li{
+        margin: 3px;
+        font-size: 13px;
+        padding: 5px;
+
     }
     #contact{
         margin-right:auto;
@@ -285,9 +291,9 @@ h6{
     .words > img{
         width: 25rem;
     }
-    body{
+    /* body{
         width: 30rem;
-    }
+    } */
 }
 
 
